@@ -3,3 +3,23 @@ venv\Scripts\activate
 
 #install flask
 python -m pip install flask
+
+#initialize a git project
+git init
+
+# add all changes/files
+git add .
+
+#create local copy
+git commit -m "ANY MESSAGE"
+
+#1st time: add the remote
+git remote add origin <URl>
+
+#upload changes
+git push -u origin master (or main)
+
+# NEXT TIMES
+git add .
+git commit -m "ANY MESSAGE"
+git push
